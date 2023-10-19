@@ -19,7 +19,7 @@ class Book {
     _isbn = newISBN;
   }
 
-  String? get title => _title;
-  String? get author => _author;
-  String? get isbn => _isbn;
+  String get title => _title;
+  String get author => _author;
+  String get isbn => _isbn;
 }
