@@ -3,8 +3,6 @@ class Book {
   String _author;
   String _isbn;
 
-  //Book();
-
   Book(this._title, this._author, this._isbn);
 
   set title(String newTitle) {
@@ -22,4 +20,9 @@ class Book {
   String get title => _title;
   String get author => _author;
   String get isbn => _isbn;
+
+  @override
+  String toString() {
+    return 'title: $title\n author: $author \n isbn: $isbn';
+  }
 }
