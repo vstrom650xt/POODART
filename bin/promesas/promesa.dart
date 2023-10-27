@@ -1,7 +1,7 @@
 import 'dart:io';
 import 'dart:math';
 
-void main(List<String> args) {
+void main(List<String> args) async {
   print("write a city");
   String city = stdin.readLineSync() ?? '';
   print("object");
